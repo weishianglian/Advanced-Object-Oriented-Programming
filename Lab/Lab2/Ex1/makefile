@@ -1,0 +1,2 @@
+main: ParcelInfo.cpp StandardDelivery.cpp TwoDayDelivery.cpp NextDayDelivery.cpp MainTest.cpp
+	g++ -std=c++14  -o TestDelivery ParcelInfo.cpp StandardDelivery.cpp TwoDayDelivery.cpp NextDayDelivery.cpp MainTest.cpp
